@@ -20,7 +20,7 @@
         - If your object doesn't have values you need yet, you can add those properties in the model.
     -->
     <script id="article-template" type="text/x-handlebars-template">
-      <article class="template" data-category="cat">
+      <article data-category="{{this.category}}" data-author="{{this.author}}">
         <header>
           <h1>{{this.title}}</h1>
           <div class="byline">

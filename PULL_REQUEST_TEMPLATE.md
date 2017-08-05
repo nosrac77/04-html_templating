@@ -15,7 +15,13 @@
   2. <!-- TODO: Include Handlebars.JS from a CDN -->
   Added Handlebars CDN script tag!
 
-  3. 
+  3. <!-- TODO: Use handlebars to render your articles.
+  - Get your template from the DOM.
+  - Now "compile" your template with Handlebars. -->
+  Added a variable that accesses the handle template ID and added a variable that compiles.
+
+  4. <!-- TODO: Use the function that Handlebars gave you to return your filled-in html template for THIS article. -->
+  We returned this.
 
 #### Checklist (before submitting, fill in each set of square brackets with an 'x')
 - [] We have titled the Pull Request similar to our branch name (ex: 'brian-rick').
